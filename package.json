@@ -1,15 +1,17 @@
 {
-  "name": "emojii-pad",
+  "name": "emoji-pad",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --report test test"
   },
   "keywords": [
     "emojiis",
+    "emojii",
     "pad",
-    "left-pad"
+    "left-pad",
+    "right-pad"
   ],
   "author": "Oskar Niburski <oskarniburski@gmail.com> (http://raksonibs.github.io)",
   "license": "ISC",
